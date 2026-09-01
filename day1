@@ -13,3 +13,15 @@ NLP helps machine to understand human language and read it .
       ex-a,an,the,on,at,this,....article,preposition,pronouns
     5.stemming-to make the machines understand the words convert all into it's root form,using simple rules...removing suffixes...chopping word to root form....
     6.Lemmatization-reducing words to their real dictionary form
+
+nltk-natural language tool kit ....it consist of all grammar and dictionary words which are need to be used...
+pip install nltk
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import PorterStemmer
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+text='I Enjoy coding.'
+print(text)
