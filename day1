@@ -1,0 +1,15 @@
+NLP helps machine to understand human language and read it .
+  data is basically unstructured nlp help us to make sense of it.
+  text processing : raw text is messy , it must be cleaned before any model use it.
+    Preprocessing techniques to work more efficiently on our data  
+    1.tokenization-breaking text into smaller units/tokens(smallest unit) , 
+       ex-sentence into words.
+      ex- if paragraph then to in sentence....means depending upon what the downstream task is needed.
+    2.lowercase- converting all text to lowercase to avoid ambiquity ....means word look similar capital small doesnot create a difference......so that machine take that particular word always similiar ......
+        ex-text:NLP
+           clean=text.lower()
+    3.removing punctuation- as it is of no use , it is just creating a noice by being their, as adding no meaning .
+    4.Stopword removal- removing less helpful words and keeping only more helpful words .
+      ex-a,an,the,on,at,this,....article,preposition,pronouns
+    5.stemming-to make the machines understand the words convert all into it's root form,using simple rules...removing suffixes...chopping word to root form....
+    6.Lemmatization-reducing words to their real dictionary form
