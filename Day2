@@ -5,4 +5,4 @@ after getting text  need is to clean it 'day1' , conert it to no. then analyse h
 Bag words-counts the word is present in the doc or not if present 1 if not 0 ....it ignores order of word only see present or not like not good and good not zre same.
 count vectorizer - scikit learn tool that turns text into count vectors .
 TF-IDF: word weighting , use to check which word is less imp and which word is more imp , which to use where ...TF- Term frequency , means how often word is appearing IDF- how rare is word across the doc ,
-score=TF * IDF....when high more imp.....word appearin in almost every docs is tend to be low TF-IDF as doesnot play a role in differentiating sentence
+score=TF * IDF....when high more imp.. ...word appearin in almost every docs is tend to be low TF-IDF as doesnot play a role in differentiating sentence
